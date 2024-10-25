@@ -7,9 +7,9 @@ app.use(cors());
 app.use(express.json());
 
 let sampleData = [
-  {name: "Jai", contact: "1234567890"},
-  {name: "Bani", contact: "5674567893"},
-  {name: "Mango", contact: "1876567891"},
+  {name: "dev", contact: "1234567890"},
+  {name: "chinmay", contact: "5674567893"},
+  {name: "sairam", contact: "1876567891"},
 ];
 
 app.get("/api/db", (req, res) => {
